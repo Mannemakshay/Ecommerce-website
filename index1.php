@@ -4,9 +4,9 @@ include __DIR__.'/includes/db.php';
 $result = $conn->query("SELECT * FROM products");
 $products = $result ? $result->fetch_all(MYSQLI_ASSOC) : [];
 ?>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+  
     <title>Online Shop</title>
     <style>
         /* Header styling */
